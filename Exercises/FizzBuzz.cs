@@ -41,7 +41,7 @@ class Program
                     if ((i % (param[0]) == 0) && (i % (param[1]) == 0)) Console.Write("FB");
                     else if (i % param[1] == 0) Console.Write("B");
                     else if (i % param[0] == 0) Console.Write("F");
-                    else Console.Write(String.Format("{0}",i));
+                    else Console.Write(i);
 
                     if (i % param[2] != 0) Console.Write(" ");
                     else Console.WriteLine();
